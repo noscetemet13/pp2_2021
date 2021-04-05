@@ -1,0 +1,15 @@
+n, m=map(int, input().split())
+a=set()
+b=set()
+for i in range(n):
+	x=input()
+	a.add(x)
+for i in range(m):
+	x=input()
+	b.add(x)
+print(len(a&b))
+print(*sorted(a&b, key=int))
+print(len(a-b))
+print(*sorted(a-b, key=int))
+print(len(b-a))
+print(*sorted(b-a, key=int))
