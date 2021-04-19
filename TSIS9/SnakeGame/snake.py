@@ -6,6 +6,7 @@ pygame.init()
 fpsClock = pygame.time.Clock()
 fps = 30
 surface = pygame.display.set_mode((640, 480))
+pygame.display.set_caption("Simple Snake game")
 
 font = pygame.font.Font(None, 32)
 
