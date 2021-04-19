@@ -116,7 +116,7 @@ def main():
 				elif event.key==pygame.K_p: 
 					drawmode='pen'
 				if event.key == pygame.K_s:
-					rect=pygame.Rect(0, 0, 800, 520)
+					rect=pygame.Rect(0, 0, 800, 510)
 					image=screen.subsurface(rect)
 					pygame.image.save(image, "image.png")
 			if event.type == pygame.MOUSEBUTTONDOWN:
